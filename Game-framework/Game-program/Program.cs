@@ -17,9 +17,16 @@ world.AddWorldObject(shield);
 player.Loot(sword);
 player.Loot(shield);
 
-// Equip weapon
+// Equip weapon - needs logic implemented
 // player.EquipWeapon(0);
 
-player.Hit(enemy1);
+int damageDealt = player.Hit(enemy1);
+Console.WriteLine($"Player dealt {damageDealt} to enemy1");
+
+Console.WriteLine(player.HitPoints);
+Console.WriteLine(enemy1.HitPoints);
 
 player.ReceiveHit(15);
+
+enemy1.ReceiveHit(150);
+Console.WriteLine($"Player received a hit. Player HP after hit: {player.HitPoints}");

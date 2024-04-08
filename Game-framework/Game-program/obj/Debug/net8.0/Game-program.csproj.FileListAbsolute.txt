@@ -16,3 +16,4 @@ C:\Users\Aweso\Desktop\Skole 2023\4. Semester\Advanced Construction\Obligatorisk
 C:\Users\Aweso\Desktop\Skole 2023\4. Semester\Advanced Construction\Obligatorisk opgave\Game-framework\Game-framework\Game-framework\Game-program\obj\Debug\net8.0\Game-program.pdb
 C:\Users\Aweso\Desktop\Skole 2023\4. Semester\Advanced Construction\Obligatorisk opgave\Game-framework\Game-framework\Game-framework\Game-program\obj\Debug\net8.0\Game-program.genruntimeconfig.cache
 C:\Users\Aweso\Desktop\Skole 2023\4. Semester\Advanced Construction\Obligatorisk opgave\Game-framework\Game-framework\Game-framework\Game-program\obj\Debug\net8.0\ref\Game-program.dll
+C:\Users\Aweso\Desktop\Skole 2023\4. Semester\Advanced Construction\Obligatorisk opgave\Game-framework\Game-framework\Game-framework\Game-program\obj\Debug\net8.0\Game-program.sourcelink.json

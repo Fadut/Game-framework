@@ -17,6 +17,7 @@ namespace Game_framework
         public int UniqueId { get; set; }
         public int MaxCarryWeight { get; set; }
         public List<int> EquippedWeapons { get; set; } // shows no. of items. Change?
+        public World World { get; set; }
 
         public Creature(int x, int y, int uniqueId)
         {
@@ -38,13 +39,31 @@ namespace Game_framework
 
         public int Hit(Creature target)
         {
-            // Logic
-            return HitPoints; // Revise
+            int totalDamage = 0;
+
+            foreach (int weaponIndex in EquippedWeapons)
+            {
+                if (weaponIndex < _attackItems.Count)
+                {
+                    AttackItem weapon = _attackItems[weaponIndex];
+                    totalDamage += weapon.HitPoints;
+                }
+            }
+
+            target.ReceiveHit(totalDamage);
+
+            return totalDamage;
         }
 
         public void ReceiveHit(int damage)
         {
-            // Logic
+            // Subtract damage from hit points
+            HitPoints -= damage;
+
+            if (HitPoints <= 0)
+            {
+                Die(); // handle creature death
+            }
         }
 
         public void Loot(AttackItem item)
@@ -60,6 +79,16 @@ namespace Game_framework
         public void EquipWeapon(int weaponIndex)
         {
             // Logic
+        }
+
+        private void Die()
+        {
+            Console.WriteLine($"Creature with ID {UniqueId} has died.");
+            
+            if (World != null)
+            {
+                World.RemoveCreature(this);
+            }
         }
     }
 }
