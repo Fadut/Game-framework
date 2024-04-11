@@ -11,8 +11,8 @@ namespace Game_framework.State
     {
         NORTH,
         EAST,
-        SOUTH,
-        WEST
+        WEST,
+        SOUTH
     };
 
     public enum InputType

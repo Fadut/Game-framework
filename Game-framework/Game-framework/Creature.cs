@@ -78,7 +78,7 @@ namespace Game_framework
 
         public void EquipWeapon(int weaponIndex)
         {
-            // Logic
+            // Logic hmm
         }
 
         private void Die()
