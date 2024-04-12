@@ -12,7 +12,7 @@ namespace Game_framework
         public string Name { get; set; }
 
         public DefenseItem(int x, int y, bool removable, int reduceHitPoints, string name, int uniqueId)
-            : base(x, y, removable, uniqueId)
+            : base(x, y, removable, uniqueId, name)
         {
             ReduceHitPoints = reduceHitPoints;
             Name = name;

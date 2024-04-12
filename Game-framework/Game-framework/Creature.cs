@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,12 +15,13 @@ namespace Game_framework
         public int HitPoints { get; set; }
         public List<AttackItem> _attackItems { get; set; }
         public List<DefenseItem> _defenseItems { get; set; }
-        public int UniqueId { get; set; }
+        public int UniqueId { get; set; } // TODO: Consider if id or name
         public int MaxCarryWeight { get; set; }
         public List<int> EquippedWeapons { get; set; } // shows no. of items. Change?
         public World World { get; set; }
+        public string Name { get; set; }
 
-        public Creature(int x, int y, int uniqueId)
+        public Creature(int x, int y, int uniqueId, string name)
         {
             X = x;
             Y = y;
@@ -29,6 +31,12 @@ namespace Game_framework
             UniqueId = uniqueId;
             MaxCarryWeight = 50; // starting weight. Change?
             EquippedWeapons = new List<int>();
+            Name = name;
+        }
+
+        public override string ToString()
+        {
+            return $"Creature: {Name}, Position: ({X}, {Y}), Unique id: {UniqueId}";
         }
 
         public void Move(int deltaX,  int deltaY)
