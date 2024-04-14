@@ -15,12 +15,10 @@ namespace Game_framework
         // Private ctor for singleton pattern
         private Logger()
         {
-            //_traceSource = new TraceSource("GameTraceSource");
-            //_traceSource.Listeners.Add(new ConsoleTraceListener());
-            _traceSource = new TraceSource("Gamess", SourceLevels.All);
+            _traceSource = new TraceSource("GameTraceSource", SourceLevels.All);
             _traceSource.Listeners.Add(new ConsoleTraceListener());
-            _traceSource.Listeners[0].TraceOutputOptions = TraceOptions.DateTime | TraceOptions.Timestamp;
-            _traceSource.Listeners[0].Name = "Consoel";
+            // _traceSource.Listeners[0].TraceOutputOptions = TraceOptions.DateTime | TraceOptions.Timestamp;
+            // _traceSource.Listeners[0].Name = "Console";
         }
 
         // Property to access singleton instance
@@ -48,19 +46,20 @@ namespace Game_framework
 
         public void LogInformation(string message)
         {
-            _traceSource.TraceInformation(message);
+            // _traceSource.TraceInformation(message);
+            _traceSource.TraceEvent(TraceEventType.Information, 200, message);
             _traceSource.Flush();
         }
 
         public void LogWarning(string message)
         {
-            _traceSource.TraceEvent(TraceEventType.Warning, 0, message);
+            _traceSource.TraceEvent(TraceEventType.Warning, 404, message);
             _traceSource.Flush();
         }
 
         public void LogError(string message)
         {
-            _traceSource.TraceEvent(TraceEventType.Error, 0, message);
+            _traceSource.TraceEvent(TraceEventType.Error, 404, message);
             _traceSource.Flush();
         }
     }

@@ -2,6 +2,9 @@
 
 namespace Game_framework
 {
+    /// <summary>
+    /// Represents the game world. Includes size of 2D game grid in x, y coordinates, and lists of creatures and objects.
+    /// </summary>
     public class World
     {
         public int MaxX { get; private set; }
@@ -27,12 +30,20 @@ namespace Game_framework
             _worldObjects = new List<WorldObject>();
         }
 
+        /// <summary>
+        /// Adds a new creature to the world. Also logs name of creature added.
+        /// </summary>
+        /// <param name="creature">The creature to add.</param>
         public void AddCreature(Creature creature)
         {
             _creatures.Add(creature);
             Logger.Instance.LogInformation($"Creature added: {creature.Name}");
         }
 
+        /// <summary>
+        /// Removes a creature from the world. Logs name.
+        /// </summary>
+        /// <param name="creature">The creature to remove.</param>
         public void RemoveCreature(Creature creature)
         {
             _creatures.Remove(creature);
@@ -51,9 +62,32 @@ namespace Game_framework
             Logger.Instance.LogInformation($"World object removed: {worldObject.Name}");
         }
 
-        public IEnumerable<Creature> GetCreatures()
+        // TODO: refactor to printworldobjects style.
+        public List<Creature> GetCreatures()
         {
             return _creatures;
+
+        }
+
+        // Deprecated method. Use printworldobjects
+        public IEnumerable<WorldObject> GetWorldObjects()
+        {
+            foreach (WorldObject worldObject in _worldObjects)
+            {
+                Console.WriteLine(worldObject);
+            }
+            return _worldObjects;
+        }
+
+        /// <summary>
+        /// Gets all world objects in the world.
+        /// </summary>
+        public void PrintWorldObjects()
+        {
+            foreach (WorldObject worldObject in _worldObjects)
+            {
+                Console.WriteLine(worldObject);
+            }
         }
 
         private void LoadConfiguration(string configFilePath)

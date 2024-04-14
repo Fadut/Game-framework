@@ -1,67 +1,61 @@
 ﻿using Game_framework;
 using System.Diagnostics;
 
-World world = new World(10, 10);
-
-Creature player = new Creature(0, 0, 1, "Hero");
-Creature enemy1 = new Creature(6, 6, 21, "Spider");
-
-world.AddCreature(player);
-world.AddCreature(enemy1);
-
-AttackItem sword = new AttackItem(2, 2, true, 10, 1, "Sword", 1);
-DefenseItem shield = new DefenseItem(3, 3, true, 10, "Shield", 2);
-
-world.AddWorldObject(sword);
-world.AddWorldObject(shield);
-
-player.Loot(sword);
-player.Loot(shield);
-
-// Equip weapon - needs logic implemented
-// player.EquipWeapon(0);
-
-int damageDealt = player.Hit(enemy1);
-Console.WriteLine($"Player dealt {damageDealt} to enemy1");
-
-Console.WriteLine(player.HitPoints);
-Console.WriteLine(enemy1.HitPoints);
-
-player.ReceiveHit(15);
-
-enemy1.ReceiveHit(150);
-Console.WriteLine($"Player received a hit. Player HP after hit: {player.HitPoints}");
-
-// ABOVE: Is for fast testing purpose, below is more tested
-
-
-
 // World x,y created from config
-World worldConfig = new World();
-
-Console.WriteLine("MaxX: " + worldConfig.MaxX);
-Console.WriteLine("MaxY: " + worldConfig.MaxY);
-
+World gameWorld = new World();
 Logger.Instance.AddTraceListener(new ConsoleTraceListener());
 
-worldConfig.AddCreature(new Creature(7, 7, 22, "Dragon"));
-worldConfig.AddCreature(new Creature(7, 8, 23, "Goblin"));
+Console.WriteLine("MaxX: " + gameWorld.MaxX);
+Console.WriteLine("MaxY: " + gameWorld.MaxY);
+
+Creature dragon = new Creature(8, 5, 22, "Dragon");
+Creature goblin = new Creature(9, 11, 23, "Goblin");
+
+gameWorld.AddCreature(dragon);
+gameWorld.AddCreature(goblin);
+
+WorldObject rock = new WorldObject(2, 3, false, 41, "Rock");
+WorldObject tree = new WorldObject(2, 4, false, 42, "Tree");
+
+gameWorld.AddWorldObject(rock);
+gameWorld.AddWorldObject(tree);
 
 
-worldConfig.AddWorldObject(new WorldObject(2, 3, false, 41, "Rock"));
+//gameWorld.RemoveCreature(new Creature(7, 8, 23, "Goblin"));  
 
-Console.WriteLine(player.Name);
-Console.WriteLine(enemy1.Name);
-Console.WriteLine(player.UniqueId);
-Console.WriteLine(enemy1.UniqueId);
-
-worldConfig.RemoveCreature(new Creature(7, 8, 23, "Goblin"));
-
-Console.WriteLine("All creatures in world:");
-foreach (Creature creature in worldConfig.GetCreatures())
+Console.WriteLine("All creatures in this world:");
+foreach (Creature creature in gameWorld.GetCreatures())
 {
-    Console.WriteLine(creature.ToString());
+    creature.EquipWeapon(
+        new AttackItem(creature.X, creature.Y, true, 11, 0, "Dookie Destroyer", 12)
+    );
+
+    Console.WriteLine("--> " + creature.ToString());
 }
+
+/*
+ * Three linq expressions below
+ */
+
+// Sum all damage of creatures and print to console
+Console.WriteLine("total damage {0}, and faton is {1}", gameWorld.GetCreatures().Sum(creature => creature.GetTotalDamage()), "cool" );
+
+// Find a specific creature with a damage over a certain threshold
+gameWorld.GetCreatures().Find(creature => creature.GetTotalDamage() > 10);
+
+// Sum all damage of creatures with aggregate function and print to console
+int totalWorldCreatureDamage = gameWorld.GetCreatures().Aggregate(0, (total, creature) => { 
+    return total + creature.GetTotalDamage();
+} );
+Console.WriteLine($"Total damage in the world {totalWorldCreatureDamage}");
+
+
+
+Console.WriteLine("1st method: All objects in this world:");
+gameWorld.GetWorldObjects();
+
+Console.WriteLine("2nd method: All objects in this world:");
+gameWorld.PrintWorldObjects();
 
 Logger.Instance.RemoveTraceListener(new ConsoleTraceListener());
 

@@ -1,0 +1,82 @@
+\doxysection{Game\+\_\+framework.\+World Class Reference}
+\hypertarget{class_game__framework_1_1_world}{}\label{class_game__framework_1_1_world}\index{Game\_framework.World@{Game\_framework.World}}
+
+
+Represents the game world. Includes size of 2D game grid in x, y coordinates, and lists of creatures and objects.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_game__framework_1_1_world_a9dba7fd5680b595685f29d8b9f0b7271}\label{class_game__framework_1_1_world_a9dba7fd5680b595685f29d8b9f0b7271} 
+{\bfseries World} (int maxX, int maxY)
+\item 
+void \mbox{\hyperlink{class_game__framework_1_1_world_aa32e3eda60197826075ce1d7cac0323b}{Add\+Creature}} (\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}} creature)
+\begin{DoxyCompactList}\small\item\em Adds a new creature to the world. Also logs name of creature added. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game__framework_1_1_world_a17bf73fab919fb09793ad1d98ebd6593}{Remove\+Creature}} (\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}} creature)
+\begin{DoxyCompactList}\small\item\em Removes a creature from the world. Logs name. \end{DoxyCompactList}\item 
+\Hypertarget{class_game__framework_1_1_world_a76647806e3520b056df45c914661d28d}\label{class_game__framework_1_1_world_a76647806e3520b056df45c914661d28d} 
+void {\bfseries Add\+World\+Object} (\mbox{\hyperlink{class_game__framework_1_1_world_object}{World\+Object}} world\+Object)
+\item 
+\Hypertarget{class_game__framework_1_1_world_a3f5d6a85123039364b5c1ccadbeb30a1}\label{class_game__framework_1_1_world_a3f5d6a85123039364b5c1ccadbeb30a1} 
+void {\bfseries Remove\+World\+Object} (\mbox{\hyperlink{class_game__framework_1_1_world_object}{World\+Object}} world\+Object)
+\item 
+\Hypertarget{class_game__framework_1_1_world_a492d23fdcfa27fdb5c2c475ad5f4fca4}\label{class_game__framework_1_1_world_a492d23fdcfa27fdb5c2c475ad5f4fca4} 
+IEnumerable$<$ \mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}} $>$ {\bfseries Get\+Creatures} ()
+\item 
+\Hypertarget{class_game__framework_1_1_world_acab9c72e733006ec52137bc3f36d31e1}\label{class_game__framework_1_1_world_acab9c72e733006ec52137bc3f36d31e1} 
+IEnumerable$<$ \mbox{\hyperlink{class_game__framework_1_1_world_object}{World\+Object}} $>$ {\bfseries Get\+World\+Objects} ()
+\item 
+\Hypertarget{class_game__framework_1_1_world_a38db0ab86193637a0348c5c671914753}\label{class_game__framework_1_1_world_a38db0ab86193637a0348c5c671914753} 
+void {\bfseries Print\+World\+Objects} ()
+\begin{DoxyCompactList}\small\item\em Gets all world objects in the world. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_game__framework_1_1_world_a92101ddaa6fdef0e745cd67c15838ddd}\label{class_game__framework_1_1_world_a92101ddaa6fdef0e745cd67c15838ddd} 
+int {\bfseries MaxX}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_world_a15d0b8a5f8deb8018c054bdd329c2e51}\label{class_game__framework_1_1_world_a15d0b8a5f8deb8018c054bdd329c2e51} 
+int {\bfseries MaxY}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the game world. Includes size of 2D game grid in x, y coordinates, and lists of creatures and objects. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game__framework_1_1_world_aa32e3eda60197826075ce1d7cac0323b}\label{class_game__framework_1_1_world_aa32e3eda60197826075ce1d7cac0323b} 
+\index{Game\_framework.World@{Game\_framework.World}!AddCreature@{AddCreature}}
+\index{AddCreature@{AddCreature}!Game\_framework.World@{Game\_framework.World}}
+\doxysubsubsection{\texorpdfstring{AddCreature()}{AddCreature()}}
+{\footnotesize\ttfamily void Game\+\_\+framework.\+World.\+Add\+Creature (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}}}]{creature }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Adds a new creature to the world. Also logs name of creature added. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em creature} & The creature to add.\\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_game__framework_1_1_world_a17bf73fab919fb09793ad1d98ebd6593}\label{class_game__framework_1_1_world_a17bf73fab919fb09793ad1d98ebd6593} 
+\index{Game\_framework.World@{Game\_framework.World}!RemoveCreature@{RemoveCreature}}
+\index{RemoveCreature@{RemoveCreature}!Game\_framework.World@{Game\_framework.World}}
+\doxysubsubsection{\texorpdfstring{RemoveCreature()}{RemoveCreature()}}
+{\footnotesize\ttfamily void Game\+\_\+framework.\+World.\+Remove\+Creature (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}}}]{creature }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Removes a creature from the world. Logs name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em creature} & The creature to remove.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Game-\/framework/World.\+cs\end{DoxyCompactItemize}

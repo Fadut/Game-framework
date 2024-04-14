@@ -1,0 +1,118 @@
+\doxysection{Game\+\_\+framework.\+Creature Class Reference}
+\hypertarget{class_game__framework_1_1_creature}{}\label{class_game__framework_1_1_creature}\index{Game\_framework.Creature@{Game\_framework.Creature}}
+
+
+Represents a creature in the game, with fitting methods such as Hit, Loot, Die etc.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game__framework_1_1_creature_ad5804675c3c9815973712d81cfcf8bce}{Creature}} (int x, int y, int unique\+Id, string name)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance of the Creature class. \end{DoxyCompactList}\item 
+\Hypertarget{class_game__framework_1_1_creature_ac36859c2c65cddb4c36995eed0555c46}\label{class_game__framework_1_1_creature_ac36859c2c65cddb4c36995eed0555c46} 
+override string {\bfseries To\+String} ()
+\item 
+\Hypertarget{class_game__framework_1_1_creature_ae45b2589642e969a0ff2b03649e39093}\label{class_game__framework_1_1_creature_ae45b2589642e969a0ff2b03649e39093} 
+void {\bfseries Move} (int deltaX, int deltaY)
+\item 
+int \mbox{\hyperlink{class_game__framework_1_1_creature_acc9d2a7d3333e7c8d3cce5ac43b9e955}{Hit}} (\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}} target)
+\begin{DoxyCompactList}\small\item\em The method for a creature hitting another creature (its target). Calculates damage by adding weapons. \end{DoxyCompactList}\item 
+\Hypertarget{class_game__framework_1_1_creature_a109ad94f940013d466df3c4ddc3ac4ba}\label{class_game__framework_1_1_creature_a109ad94f940013d466df3c4ddc3ac4ba} 
+void {\bfseries Receive\+Hit} (int damage)
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a4d286531440c757b4f7e07c000488713}\label{class_game__framework_1_1_creature_a4d286531440c757b4f7e07c000488713} 
+void {\bfseries Loot} (\mbox{\hyperlink{class_game__framework_1_1_attack_item}{Attack\+Item}} item)
+\item 
+\Hypertarget{class_game__framework_1_1_creature_aac1be25f4a5188cc5b8bf28659c32e86}\label{class_game__framework_1_1_creature_aac1be25f4a5188cc5b8bf28659c32e86} 
+void {\bfseries Loot} (\mbox{\hyperlink{class_game__framework_1_1_defense_item}{Defense\+Item}} item)
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a0dc818a2795bb01dac3ef6c87a870e87}\label{class_game__framework_1_1_creature_a0dc818a2795bb01dac3ef6c87a870e87} 
+void {\bfseries Equip\+Weapon} (int weapon\+Index)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_ae046da7f3fbd3d5354e1c8646a5a5d02}\label{class_game__framework_1_1_creature_ae046da7f3fbd3d5354e1c8646a5a5d02} 
+int {\bfseries X}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a2b83722342a5c2301e86395dfd29d0db}\label{class_game__framework_1_1_creature_a2b83722342a5c2301e86395dfd29d0db} 
+int {\bfseries Y}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a4287b413e540112e12988ca1b54455e0}\label{class_game__framework_1_1_creature_a4287b413e540112e12988ca1b54455e0} 
+int {\bfseries Hit\+Points}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_ac6214a2cd4f63b7941644ff23da2fcf6}\label{class_game__framework_1_1_creature_ac6214a2cd4f63b7941644ff23da2fcf6} 
+List$<$ \mbox{\hyperlink{class_game__framework_1_1_attack_item}{Attack\+Item}} $>$ {\bfseries \+\_\+attack\+Items}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a0224dfaafdc5f48a3f17f2ac80ea93aa}\label{class_game__framework_1_1_creature_a0224dfaafdc5f48a3f17f2ac80ea93aa} 
+List$<$ \mbox{\hyperlink{class_game__framework_1_1_defense_item}{Defense\+Item}} $>$ {\bfseries \+\_\+defense\+Items}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a5a4511ade338d5ffaaa77ad394355df4}\label{class_game__framework_1_1_creature_a5a4511ade338d5ffaaa77ad394355df4} 
+int {\bfseries Unique\+Id}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a1b2fcabd5171eee878a396267e3adbb5}\label{class_game__framework_1_1_creature_a1b2fcabd5171eee878a396267e3adbb5} 
+int {\bfseries Max\+Carry\+Weight}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_adb95c03c21fa63c7056fe468b84a6519}\label{class_game__framework_1_1_creature_adb95c03c21fa63c7056fe468b84a6519} 
+List$<$ int $>$ {\bfseries Equipped\+Weapons}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a9adafda6fd5bb2cf3cd49c73f8fdcff3}\label{class_game__framework_1_1_creature_a9adafda6fd5bb2cf3cd49c73f8fdcff3} 
+\mbox{\hyperlink{class_game__framework_1_1_world}{World}} {\bfseries World}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+\Hypertarget{class_game__framework_1_1_creature_a12323b0e3fe02ce76a2ea35aaea136b5}\label{class_game__framework_1_1_creature_a12323b0e3fe02ce76a2ea35aaea136b5} 
+string {\bfseries Name}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a creature in the game, with fitting methods such as Hit, Loot, Die etc. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_game__framework_1_1_creature_ad5804675c3c9815973712d81cfcf8bce}\label{class_game__framework_1_1_creature_ad5804675c3c9815973712d81cfcf8bce} 
+\index{Game\_framework.Creature@{Game\_framework.Creature}!Creature@{Creature}}
+\index{Creature@{Creature}!Game\_framework.Creature@{Game\_framework.Creature}}
+\doxysubsubsection{\texorpdfstring{Creature()}{Creature()}}
+{\footnotesize\ttfamily Game\+\_\+framework.\+Creature.\+Creature (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{unique\+Id,  }\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructs a new instance of the Creature class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x-\/coordinate on the grid-\/system of the 2D game world.\\
+\hline
+{\em y} & The y-\/coordinate on the grid-\/system of the 2D game world.\\
+\hline
+{\em unique\+Id} & A unique identifier of the Creature. Perhaps unneeded in future.\\
+\hline
+{\em name} & Name of the creature.\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_game__framework_1_1_creature_acc9d2a7d3333e7c8d3cce5ac43b9e955}\label{class_game__framework_1_1_creature_acc9d2a7d3333e7c8d3cce5ac43b9e955} 
+\index{Game\_framework.Creature@{Game\_framework.Creature}!Hit@{Hit}}
+\index{Hit@{Hit}!Game\_framework.Creature@{Game\_framework.Creature}}
+\doxysubsubsection{\texorpdfstring{Hit()}{Hit()}}
+{\footnotesize\ttfamily int Game\+\_\+framework.\+Creature.\+Hit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_game__framework_1_1_creature}{Creature}}}]{target }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The method for a creature hitting another creature (its target). Calculates damage by adding weapons. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em target} & Target creature to receive the hit, which deals damage to hit points.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Game-\/framework/Creature.\+cs\end{DoxyCompactItemize}
