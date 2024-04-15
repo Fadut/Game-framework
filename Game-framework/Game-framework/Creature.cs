@@ -55,6 +55,11 @@ namespace Game_framework
             Y += deltaY;
         }
 
+        public bool IsAlive()
+        {
+            return HitPoints > 0;
+        }
+
         /// <summary>
         /// The method for a creature hitting another creature (its target). Calculates damage by adding weapons.
         /// </summary>
@@ -62,16 +67,40 @@ namespace Game_framework
         /// <returns></returns>
         public int Hit(Creature target)
         {
-            int totalDamage = 0;
-
-            foreach (AttackItem weapon in EquippedWeapons)
+            if (IsAlive())
             {
-                totalDamage += weapon.Damage;
+                int totalDamage = 0;
+
+                foreach (AttackItem weapon in EquippedWeapons)
+                {
+                    totalDamage += weapon.Damage;
+                }
+
+                if (target.IsAlive())
+                {
+                    target.ReceiveHit(totalDamage);
+
+                    Console.WriteLine($"Target: {target.Name} took {totalDamage} damage from {Name}. HP remaining: {target.HitPoints}");
+
+                    if (!target.IsAlive())
+                    {
+                        Console.WriteLine($"Target {target.Name} has died.");
+                        //Die();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"Target {target.Name} is already dead. No damage dealt");
+                    return 0;
+                }
+
+                return totalDamage;
+            }   
+            else   
+            {
+                Console.WriteLine($"Attacker {Name} is dead. Cannot perform attack");
+                return 0;  
             }
-
-            target.ReceiveHit(totalDamage);
-
-            return totalDamage;
         }
 
         public int GetTotalDamage()

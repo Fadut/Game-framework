@@ -7,12 +7,64 @@
       "RelativeMoniker": "D:0:0:{F108A136-C398-44B7-A5DC-74CBDD1BAD58}|Game-program\\Game-program.csproj|solutionrelative:game-program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\bowfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\bowfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\axefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\axefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\decorator\\poisondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\decorator\\poisondecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\decorator\\firedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\decorator\\firedecorator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\decorator\\basicweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\decorator\\basicweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\decorator\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\decorator\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\sword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\bow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\axe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\swordfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\swordfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\factory\\weaponfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\factory\\weaponfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\observer\\iobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\observer\\healthmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\observer\\healthmonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\attackitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\attackitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +75,16 @@
       "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\worldobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\attackitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\attackitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\creature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\defenseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\defenseitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\state\\istate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\state\\istatemachinepattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\state\\istatemachinepattern.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|solutionrelative:game-framework\\config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{285C7563-0418-48F3-B23D-3BEBFA3A0651}|Game-framework\\Game-framework.csproj|c:\\users\\faton\\source\\repos\\game-framework\\game-framework\\game-framework\\state\\stateobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,53 +143,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "GameTableStateMachine.cs",
-              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\GameTableStateMachine.cs",
-              "RelativeDocumentMoniker": "Game-framework\\State\\GameTableStateMachine.cs",
-              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\GameTableStateMachine.cs",
-              "RelativeToolTip": "Game-framework\\State\\GameTableStateMachine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAFAAAA",
+              "Title": "Sword.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Sword.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\Sword.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Sword.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\Sword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T20:02:04.22Z",
+              "WhenOpened": "2024-04-15T15:40:45.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "World.cs",
-              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\World.cs",
-              "RelativeDocumentMoniker": "Game-framework\\World.cs",
-              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\World.cs",
-              "RelativeToolTip": "Game-framework\\World.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAwwEUAAAAAAAAA",
+              "Title": "BowFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\BowFactory.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\BowFactory.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\BowFactory.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\BowFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:50:59.143Z",
+              "WhenOpened": "2024-04-15T15:36:27.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AxeFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\AxeFactory.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\AxeFactory.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\AxeFactory.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\AxeFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:31:48.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SwordFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\SwordFactory.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\SwordFactory.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\SwordFactory.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\SwordFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:21:08.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WorldObject.cs",
-              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\WorldObject.cs",
-              "RelativeDocumentMoniker": "Game-framework\\WorldObject.cs",
-              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\WorldObject.cs",
-              "RelativeToolTip": "Game-framework\\WorldObject.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Title": "PoisonDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\PoisonDecorator.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Decorator\\PoisonDecorator.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\PoisonDecorator.cs",
+              "RelativeToolTip": "Game-framework\\Decorator\\PoisonDecorator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:50:59.14Z",
+              "WhenOpened": "2024-04-15T14:51:45.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Creature.cs",
-              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Creature.cs",
-              "RelativeDocumentMoniker": "Game-framework\\Creature.cs",
-              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Creature.cs",
-              "RelativeToolTip": "Game-framework\\Creature.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwEwAAAAhAAAA",
+              "DocumentIndex": 6,
+              "Title": "BasicWeapon.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\BasicWeapon.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Decorator\\BasicWeapon.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\BasicWeapon.cs",
+              "RelativeToolTip": "Game-framework\\Decorator\\BasicWeapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:50:59.141Z",
+              "WhenOpened": "2024-04-15T14:50:50.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\Weapon.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Decorator\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\Weapon.cs",
+              "RelativeToolTip": "Game-framework\\Decorator\\Weapon.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:48:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HealthMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Observer\\HealthMonitor.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Observer\\HealthMonitor.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Observer\\HealthMonitor.cs",
+              "RelativeToolTip": "Game-framework\\Observer\\HealthMonitor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:44:27.259Z",
               "EditorCaption": ""
             },
             {
@@ -148,27 +252,143 @@
               "RelativeDocumentMoniker": "Game-program\\Program.cs",
               "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-program\\Program.cs",
               "RelativeToolTip": "Game-program\\Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADkAAAAAAAAA",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFEAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T13:50:59.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\World.cs",
+              "RelativeDocumentMoniker": "Game-framework\\World.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\World.cs",
+              "RelativeToolTip": "Game-framework\\World.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:50:59.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FireDecorator.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\FireDecorator.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Decorator\\FireDecorator.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Decorator\\FireDecorator.cs",
+              "RelativeToolTip": "Game-framework\\Decorator\\FireDecorator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:56:44.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Axe.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Axe.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\Axe.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Axe.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\Axe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:40:49.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bow.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Bow.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\Bow.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\Bow.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\Bow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:41:02.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Observer\\IObserver.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Observer\\IObserver.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Observer\\IObserver.cs",
+              "RelativeToolTip": "Game-framework\\Observer\\IObserver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:44:20.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeaponFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\WeaponFactory.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Factory\\WeaponFactory.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Factory\\WeaponFactory.cs",
+              "RelativeToolTip": "Game-framework\\Factory\\WeaponFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T14:32:16.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GameTableStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\GameTableStateMachine.cs",
+              "RelativeDocumentMoniker": "Game-framework\\State\\GameTableStateMachine.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\GameTableStateMachine.cs",
+              "RelativeToolTip": "Game-framework\\State\\GameTableStateMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T20:02:04.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WorldObject.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\WorldObject.cs",
+              "RelativeDocumentMoniker": "Game-framework\\WorldObject.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\WorldObject.cs",
+              "RelativeToolTip": "Game-framework\\WorldObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:50:59.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Creature.cs",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Creature.cs",
+              "RelativeDocumentMoniker": "Game-framework\\Creature.cs",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Creature.cs",
+              "RelativeToolTip": "Game-framework\\Creature.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:50:59.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "DefenseItem.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\DefenseItem.cs",
               "RelativeDocumentMoniker": "Game-framework\\DefenseItem.cs",
               "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\DefenseItem.cs",
               "RelativeToolTip": "Game-framework\\DefenseItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T13:50:59.136Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 21,
               "Title": "IState.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\IState.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\IState.cs",
@@ -176,12 +396,11 @@
               "RelativeToolTip": "Game-framework\\State\\IState.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAQwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:50:59.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T13:50:59.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "IStateMachinePattern.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\IStateMachinePattern.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\IStateMachinePattern.cs",
@@ -189,38 +408,50 @@
               "RelativeToolTip": "Game-framework\\State\\IStateMachinePattern.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:07:26.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T18:07:26.974Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "AttackItem.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\AttackItem.cs",
               "RelativeDocumentMoniker": "Game-framework\\AttackItem.cs",
               "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\AttackItem.cs",
               "RelativeToolTip": "Game-framework\\AttackItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAJAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T13:50:59.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "Logger.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Logger.cs",
               "RelativeDocumentMoniker": "Game-framework\\Logger.cs",
               "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\Logger.cs",
               "RelativeToolTip": "Game-framework\\Logger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T12:39:57.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
+              "Title": "config.xml",
+              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\config.xml",
+              "RelativeDocumentMoniker": "Game-framework\\config.xml",
+              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\config.xml",
+              "RelativeToolTip": "Game-framework\\config.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-12T10:43:53.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "StateMachinePatternEast.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\StateMachinePatternEast.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\StateMachinePatternEast.cs",
@@ -232,19 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "config.xml",
-              "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\config.xml",
-              "RelativeDocumentMoniker": "Game-framework\\config.xml",
-              "ToolTip": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\config.xml",
-              "RelativeToolTip": "Game-framework\\config.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-04-12T10:43:53.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 27,
               "Title": "StateMachinePatternNorth.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\StateMachinePatternNorth.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\StateMachinePatternNorth.cs",
@@ -256,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 26,
               "Title": "StateMachinePatternSouth.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\StateMachinePatternSouth.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\StateMachinePatternSouth.cs",
@@ -268,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "StateMachinePatternWest.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\StateMachinePatternWest.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\StateMachinePatternWest.cs",
@@ -280,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "StateObjects.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\StateObjects.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\StateObjects.cs",
@@ -292,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "GameStateMachinePattern.cs",
               "DocumentMoniker": "C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\\State\\GameStateMachinePattern.cs",
               "RelativeDocumentMoniker": "Game-framework\\State\\GameStateMachinePattern.cs",

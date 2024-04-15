@@ -1,8 +1,10 @@
 ﻿using Game_framework;
+using Game_framework.Decorator;
+using Game_framework.Factory;
 using System.Diagnostics;
 
 // World x,y created from config file
-World gameWorld = new World();
+World gameWorld = World.Instance;
 
 // Prints duplicate, since Add methods in World.cs already calls logger info
 // Logger.Instance.AddTraceListener(new ConsoleTraceListener());
@@ -38,7 +40,7 @@ Console.WriteLine("All creatures in this world equip a weapon:");
 foreach (Creature creature in gameWorld.GetCreatures())
 {
     creature.EquipWeapon(
-        new AttackItem(creature.X, creature.Y, true, 11, 0, "Sword", 12)
+        new AttackItem(creature.X, creature.Y, true, 17, "melee", "Sword", 12)
     );
 
     Console.WriteLine("--> " + creature.ToString());
@@ -46,24 +48,58 @@ foreach (Creature creature in gameWorld.GetCreatures())
 Console.WriteLine(); // for spacing
 
 /*
- * Three linq expressions below
+ * Three+ linq expressions below
  */
 
 // Sum all damage of creatures and print to console
 Console.WriteLine("Damage sum of all creatures:");
 Console.WriteLine("Total damage = {0}", gameWorld.GetCreatures().Sum(creature => creature.GetTotalDamage()));
-// TODO: Review code below this line
+
 // Find a specific creature with a damage over a certain threshold
+Console.WriteLine();
+Console.WriteLine("LINQ find: Creature with > 10 damage.");
+// Prints only first occurence, hero in this case. Only for showing linq expression
 gameWorld.GetCreatures().Find(creature => creature.GetTotalDamage() > 10);
+Console.WriteLine(gameWorld.GetCreatures().Find(creature => creature.GetTotalDamage() > 10));
+Console.WriteLine();
 
 // Sum all damage of creatures with aggregate function and print to console
 int totalWorldCreatureDamage = gameWorld.GetCreatures().Aggregate(0, (total, creature) => { 
     return total + creature.GetTotalDamage();
 } );
-Console.WriteLine($"Total damage in the world {totalWorldCreatureDamage}");
+Console.WriteLine($"Total damage in the world = {totalWorldCreatureDamage}");
+Console.WriteLine();
 
+// LINQ Find by name
+Console.WriteLine(gameWorld.FindCreatureByName("Hero"));
+Console.WriteLine();
 
+// LINQ find best weapon
+Console.WriteLine("Strongest Weapon:");
+Console.WriteLine(gameWorld.FindMostEffectiveWeapon());
+Console.WriteLine();
 
+Console.WriteLine($"Hero current damage is: {hero.GetTotalDamage()}");
+Console.WriteLine($"Zombie health: {zombie.HitPoints}");
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+hero.Hit(zombie);
+Console.WriteLine($"Zombie health {zombie.HitPoints}");
+Console.WriteLine();
+
+// check for singleton pattern
+World sameWorld = World.Instance;
+Console.WriteLine($"Is gameWorld the same instance as sameWorld? {gameWorld == sameWorld}");
+
+// factory pattern
+IWeaponFactory swordFactory = new SwordFactory();
+Weapon randomSword = swordFactory.CreateWeapon();
+Console.WriteLine($"Random Sword: {randomSword}");
 
 Logger.Instance.RemoveTraceListener(new ConsoleTraceListener());
 Console.ReadLine();

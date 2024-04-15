@@ -11,7 +11,7 @@ namespace Game_framework
     /// </summary>
     public class WorldObject
     {
-        private bool removable;
+        private bool _removable;
 
         public int X { get; set; }
         public int Y { get; set; }
@@ -30,7 +30,7 @@ namespace Game_framework
 
         public WorldObject(bool removable, int uniqueId, string name)
         {
-            this.removable = removable;
+            this._removable = removable;
             UniqueId = uniqueId;
             Name = name;
         }

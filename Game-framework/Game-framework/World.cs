@@ -7,6 +7,7 @@ namespace Game_framework
     /// </summary>
     public class World
     {
+        private static World _instance;
         public int MaxX { get; private set; }
         public int MaxY { get; private set; }
         private List<Creature> _creatures;
@@ -14,7 +15,7 @@ namespace Game_framework
         private const string _configFilePath = @"C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\config.xml"; // Default config file path
 
         // manual input constructor
-        public World(int maxX, int maxY)
+        private World(int maxX, int maxY)
         {
             MaxX = maxX;
             MaxY = maxY;
@@ -23,11 +24,23 @@ namespace Game_framework
         }
 
         // constructor reading from config file
-        public World()
+        private World() // singleton pattern
         {
             LoadConfiguration(_configFilePath);
             _creatures = new List<Creature>();
             _worldObjects = new List<WorldObject>();
+        }
+
+        public static World Instance // singleton instance
+        {
+            get
+            {
+                if (_instance == null)
+                {
+                    _instance = new World();
+                }
+                return _instance;
+            }
         }
 
         /// <summary>
@@ -83,6 +96,20 @@ namespace Game_framework
             {
                 Console.WriteLine(worldObject);
             }
+        }
+
+        // LINQ Find creature with specific name
+        public Creature FindCreatureByName(string name)
+        {
+            return _creatures.Find(creature => creature.Name == name);
+        }
+
+        // Find most effective weapon 
+        public AttackItem FindMostEffectiveWeapon()
+        {
+            return _creatures.SelectMany(creature => creature.EquippedWeapons)
+                .OrderByDescending(weapon => weapon.Damage)
+                .FirstOrDefault();
         }
 
         private void LoadConfiguration(string configFilePath)

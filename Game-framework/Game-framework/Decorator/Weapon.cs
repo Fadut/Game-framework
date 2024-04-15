@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Game_framework
+namespace Game_framework.Decorator
 {
-    public class AttackItem : WorldObject
+    public abstract class Weapon
     {
         private int _damage;
         private string _name;
         private string _range;
 
-        public int Damage 
-        { 
+        public int Damage
+        {
             get { return _damage; }
-            set 
+            set
             {
                 if (value < 1)
                 {
@@ -23,7 +23,7 @@ namespace Game_framework
                 }
                 _damage = value;
             }
-        } // Change?
+        }
 
         public string Name
         {
@@ -51,17 +51,22 @@ namespace Game_framework
             }
         }
 
-        public AttackItem(int x, int y, bool removable, int damage, string range, string name, int uniqueId)
-            : base(x, y, removable, uniqueId, name)
+        public Weapon(int damage, string name, string range)
         {
             Damage = damage;
-            Range = range;
             Name = name;
+            Range = range;
         }
 
         public override string ToString()
         {
-            return $"{Name} deals {Damage} damage.";
+            return $"Name: {Name} (Damage: {Damage}, Range: {Range})";
+        }
+
+        public virtual void Attack(Creature target)
+        {
+            Console.WriteLine($"Attacking with {Name} for {Damage} damage.");
+            //target.ReceiveHit(Damage);
         }
     }
 }
