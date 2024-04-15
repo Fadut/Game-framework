@@ -8,7 +8,7 @@ namespace Game_framework
 {
     public class DefenseItem : WorldObject
     {
-        public int ReduceHitPoints {  get; set; }
+        public int ReduceHitPoints {  get; set; } // Change?
         public string Name { get; set; }
 
         public DefenseItem(int x, int y, bool removable, int reduceHitPoints, string name, int uniqueId)
@@ -16,6 +16,11 @@ namespace Game_framework
         {
             ReduceHitPoints = reduceHitPoints;
             Name = name;
+        }
+
+        public override string ToString()
+        {
+            return $"{Name} blocks {ReduceHitPoints} damage";
         }
     }
 }

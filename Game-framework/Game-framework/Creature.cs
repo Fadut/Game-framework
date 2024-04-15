@@ -21,7 +21,7 @@ namespace Game_framework
         public int UniqueId { get; set; } // TODO: Consider if id or name
         public int MaxCarryWeight { get; set; }
         public List<AttackItem> EquippedWeapons { get; set; } // shows no. of items. Change?
-        public World World { get; set; }
+        public World World { get; set; } // Used for Die() method. Refactor?
         public string Name { get; set; }
 
         /// <summary>
@@ -46,7 +46,7 @@ namespace Game_framework
 
         public override string ToString()
         {
-            return $"Creature: {Name}, Position: ({X}, {Y}), Unique id: {UniqueId}. Deals {GetTotalDamage()} damage";
+            return $"Creature: {Name} - Position: ({X}, {Y}). Deals {GetTotalDamage()} damage.";
         }
 
         public void Move(int deltaX,  int deltaY)
@@ -102,21 +102,20 @@ namespace Game_framework
             _attackItems.Add(item);
         }
 
-        public void Loot(DefenseItem item)
+        public void Loot(DefenseItem item) // are 2 loot methods needed? Or name change needed
         {
             _defenseItems.Add(item);
         }
 
         public void EquipWeapon(AttackItem attackItem)
         {
-            // Logic hmm
             EquippedWeapons.Add(attackItem);
             Logger.Instance.LogInformation($"Weapon equipped: {attackItem.Name}");
         }
 
         private void Die()
         {
-            Console.WriteLine($"Creature with ID {UniqueId} has died.");
+            Console.WriteLine($"Creature: {Name} with ID: {UniqueId} has died.");
             
             if (World != null)
             {

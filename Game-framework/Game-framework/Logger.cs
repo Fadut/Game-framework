@@ -12,10 +12,10 @@ namespace Game_framework
         private static Logger _instance;
         private TraceSource _traceSource;
 
-        // Private ctor for singleton pattern
+        // Private constructor for singleton pattern
         private Logger()
         {
-            _traceSource = new TraceSource("GameTraceSource", SourceLevels.All);
+            _traceSource = new TraceSource("Tracer", SourceLevels.All);
             _traceSource.Listeners.Add(new ConsoleTraceListener());
             // _traceSource.Listeners[0].TraceOutputOptions = TraceOptions.DateTime | TraceOptions.Timestamp;
             // _traceSource.Listeners[0].Name = "Console";

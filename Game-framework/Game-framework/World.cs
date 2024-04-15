@@ -13,7 +13,7 @@ namespace Game_framework
         private List<WorldObject> _worldObjects;
         private const string _configFilePath = @"C:\\Users\\Faton\\source\\repos\\Game-framework\\Game-framework\\Game-framework\config.xml"; // Default config file path
 
-        // manual input ctor
+        // manual input constructor
         public World(int maxX, int maxY)
         {
             MaxX = maxX;
@@ -22,7 +22,7 @@ namespace Game_framework
             _worldObjects = new List<WorldObject>();
         }
 
-        // constructor for reading config file
+        // constructor reading from config file
         public World()
         {
             LoadConfiguration(_configFilePath);
@@ -62,20 +62,15 @@ namespace Game_framework
             Logger.Instance.LogInformation($"World object removed: {worldObject.Name}");
         }
 
-        // TODO: refactor to printworldobjects style.
+        // for LINQ usage
         public List<Creature> GetCreatures()
         {
             return _creatures;
-
         }
 
-        // Deprecated method. Use printworldobjects
-        public IEnumerable<WorldObject> GetWorldObjects()
+        // for LINQ usage
+        public List<WorldObject> GetWorldObjects()
         {
-            foreach (WorldObject worldObject in _worldObjects)
-            {
-                Console.WriteLine(worldObject);
-            }
             return _worldObjects;
         }
 

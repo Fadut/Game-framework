@@ -15,7 +15,7 @@ namespace Game_framework
 
         public int X { get; set; }
         public int Y { get; set; }
-        public bool IsRemovable { get; set; } // if object is wall = not removable
+        public bool IsRemovable { get; set; } // if object is rock = not removable
         public int UniqueId { get; private set; }
         public string Name { get; set; }
 
